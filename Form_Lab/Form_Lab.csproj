@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5AA5ACBE-C44B-4E61-BFCE-9F3F46F6156C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Form_Lab</RootNamespace>
+    <AssemblyName>Form_Lab</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class_member.cs" />
+    <Compile Include="Class_static.cs" />
+    <Compile Include="Form08_click.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08_click.Designer.cs">
+      <DependentUpon>Form08_click.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_16_ByvalByref.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_16_ByvalByref.Designer.cs">
+      <DependentUpon>Form_16_ByvalByref.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_18_enum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_18_enum.Designer.cs">
+      <DependentUpon>Form_18_enum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_19_struct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_19_struct.Designer.cs">
+      <DependentUpon>Form_19_struct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_22.Designer.cs">
+      <DependentUpon>Form_22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_26_arry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_26_arry.Designer.cs">
+      <DependentUpon>Form_26_arry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_28_swap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_28_swap.Designer.cs">
+      <DependentUpon>Form_28_swap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_29_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_29_employee.Designer.cs">
+      <DependentUpon>Form_29_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_labelShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_labelShow.Designer.cs">
+      <DependentUpon>Form_labelShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_member.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_member.Designer.cs">
+      <DependentUpon>Form_member.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_open_cat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_open_cat.Designer.cs">
+      <DependentUpon>Form_open_cat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_name_cat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_name_cat.Designer.cs">
+      <DependentUpon>Form_name_cat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_累加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_累加.Designer.cs">
+      <DependentUpon>Form_累加.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_15_CTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_15_CTS.Designer.cs">
+      <DependentUpon>Frm_15_CTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form08_click.resx">
+      <DependentUpon>Form08_click.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_16_ByvalByref.resx">
+      <DependentUpon>Form_16_ByvalByref.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_18_enum.resx">
+      <DependentUpon>Form_18_enum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_19_struct.resx">
+      <DependentUpon>Form_19_struct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_22.resx">
+      <DependentUpon>Form_22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_26_arry.resx">
+      <DependentUpon>Form_26_arry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_28_swap.resx">
+      <DependentUpon>Form_28_swap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_29_employee.resx">
+      <DependentUpon>Form_29_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_labelShow.resx">
+      <DependentUpon>Form_labelShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_member.resx">
+      <DependentUpon>Form_member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_open_cat.resx">
+      <DependentUpon>Form_open_cat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_name_cat.resx">
+      <DependentUpon>Form_name_cat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_累加.resx">
+      <DependentUpon>Form_累加.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_15_CTS.resx">
+      <DependentUpon>Frm_15_CTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
